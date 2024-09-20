@@ -1,3 +1,5 @@
+\c test;
+-- Connect to the 'test' database
 CREATE TABLE employees (
     id SERIAL PRIMARY KEY,
     first_name VARCHAR(50),
